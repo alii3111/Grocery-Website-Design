@@ -488,6 +488,7 @@ section{
     height:25rem;
     width:100%;
     object-fit: cover;
+    transition: 1ss ease-in;
 }
 
 .blogs .box-container .box .content{
@@ -529,6 +530,9 @@ section{
     color:var(--light-color);
     font-size: 1.5rem;
     padding:.5rem 0;
+}
+img:hover{
+    transform: scale(1.1, 1.1);
 }
 
 .footer{
